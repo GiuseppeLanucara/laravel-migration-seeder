@@ -5,7 +5,7 @@
 
 @section('content')
     @foreach ($trains as $train)
-        <ul>
+        <ul class="container d-flex-column mt-5">
             <li>Compagnia: {{ $train->company }}</li>
             <li>Stazione di partenza: {{ $train->departure_station }}</li>
             <li>Stazione di arrivo: {{ $train->arrival_station }}</li>
