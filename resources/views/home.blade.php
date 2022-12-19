@@ -1,4 +1,3 @@
 @extends('layouts.app')
 
-@section('content')
-@endsection
+<@section('title', 'Treni in Partenza Oggi' ); @section('content') @endsection
